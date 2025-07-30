@@ -1,4 +1,4 @@
-FROM python:3.12
+FROM python:3.13
 
 RUN pip install --force-reinstall 'dbt-postgres>=1.8'
 RUN pip install --force-reinstall dbt-adapters
