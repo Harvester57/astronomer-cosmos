@@ -1,4 +1,4 @@
-FROM quay.io/astronomer/astro-runtime:11.6.0-base
+FROM quay.io/astronomer/astro-runtime:11.6.0-base@sha256:4a4ee1c7d169f231ba9a7e1f1603e50946972205a8b80eca4c461dbfd594d263
 
 USER root
 
