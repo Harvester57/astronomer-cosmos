@@ -8,3 +8,23 @@ updates:
       - "dependencies"
     reviewers:
       - "@astronomer/oss-integrations"
+
+  - package-ecosystem: docker
+    directory: /dev
+    schedule:
+      interval: daily
+
+  - package-ecosystem: pip
+    directory: /dev
+    schedule:
+      interval: daily
+
+  - package-ecosystem: pip
+    directory: /docs
+    schedule:
+      interval: daily
+
+  - package-ecosystem: pip
+    directory: /scripts/airflow3
+    schedule:
+      interval: daily
